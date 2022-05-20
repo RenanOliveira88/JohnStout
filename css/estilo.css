@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+}
+.banner{
+    background-color:red;
+    background: url(../images/a.jpg)  no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    height: 35vh;
+    background-color: white;
+    
+}
+.logo{
+    display: inline-block;
+    background: url("../images/LogoJohnStout.PNG") no-repeat;
+    width:40%;
+    height: 200px;
+    background-size: contain;
+    background-position: top left;
+    
+    float:left;
+}
+.btnMenu{
+    float: right;
+}
+.itemMenu{
+    display:none;
+}
+.titulo{
+    display: flex;
+    font-size: 5em;
+    text-align: center;
+    vertical-align:middle;
+    color: antiquewhite;
+    background: rgba(37, 32, 47, 0.86);
+    height: 2em;
+    
+}
+.agenda{
+    display: inline-block;
+    margin: 5%;
+    width: 90%;
+    font-size: 5em;
+    color: rgba(43, 34, 60, 0.78);
+}
+
+.agendaData{
+    display: flex;
+
+    border-bottom: 0.02em solid rgba(75, 62, 101, 0.78); 
+}
+.agendaDescricao{
+    flex-grow: 2;
+}
+
+.btnMain{
+    float: right;
+    margin-bottom: 0.1em;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 1.5em;
+    border-radius: 1em;
+    transition: ease 0.5s;
+}
+.btnMain:hover{
+
+    color: white;
+    background-color:rgba(75, 62, 101, 0.78);
+
+}
