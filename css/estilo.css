@@ -47,13 +47,24 @@ body{
 
 }
 
+.agendaDados{
+    border-bottom: 0.02em solid rgba(75, 62, 101, 0.78); 
+    margin-bottom: 1em;
+}
 .agendaData{
     display: flex;
 
-    border-bottom: 0.02em solid rgba(75, 62, 101, 0.78); 
 }
+
 .agendaDescricao{
     flex-grow: 2;
+}
+.agendaDescricao2{
+    background: red;
+    font-size: 0.8em;
+}
+.agendaLocal{
+    font-size:0.5em;
 }
 
 .btnMain{
@@ -63,6 +74,8 @@ body{
     align-items: center;
     align-content: center;
     width: 1.5em;
+    min-width: 1.5em;
+    max-height: 1.5em;
     border-radius: 1em;
     transition: ease 0.5s;
 }
@@ -80,4 +93,12 @@ footer{
 
 i{
     margin: 0 0.25em 0 0.25em;
+    transition: ease 0.5s;
+}
+i:hover{
+    color: rgba(126, 87, 199, 0.78);    
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
